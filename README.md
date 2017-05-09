@@ -20,6 +20,7 @@ As it's based on Casper, the general look and feel is the same you would get wit
   * Github
   * Linkedin
   * Telegram
+* **Post description** The description of the post is taken from the meta description (If it is).
 
 ## Screenshots
 
@@ -39,6 +40,7 @@ As it's based on Casper, the general look and feel is the same you would get wit
 <summary>Comments</summary>
 ![Comments](http://i.imgur.com/7gkWwY7.jpg)
 </details>
+
 ## Why
 
 We liked the Ghost default theme, but we thought it lacked some things, such as Syntax Highlighting or easy integration with a comment system.
@@ -101,6 +103,12 @@ var telegram_channel = 'YOUR_CHANNEL_NAME'
   var telegram_channel = 'mychannel'
 </script>
 ```
+
+### ToDo
+
+1. Add a variable that specifies how to take a description of the post (or meta description or from the beginning of the post)
+1. Add link "Fork This Theme" to footer on main page.
+1. Update Casper theme.
 
 ## Copyright & License
 
