@@ -119,6 +119,7 @@ var telegram_channel = 'YOUR_CHANNEL_NAME'
 
 - [x] Update highlight.js 9.6.0 to 9.11.0
 - [x] Change description of the post from meta description by default
+- [x] Update jquery 1.12.0 to 1.12.4
 - [ ] Add a variable that specifies how to take a description of the post (or meta description or from the beginning of the post)
 - [ ] Add link "Fork This Theme" to footer on main page.
 - [ ] Update Casper theme from base repositary.
