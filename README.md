@@ -38,7 +38,7 @@ As it's based on Casper, the general look and feel is the same you would get wit
 </details>
 <details>
 <summary>Comments</summary>
-![Comments](http://i.imgur.com/7gkWwY7.jpg)
+![Comments](assets/screenshots/comment_screen.jpg)
 </details>
 
 ## Why
