@@ -26,19 +26,19 @@ As it's based on Casper, the general look and feel is the same you would get wit
 
 <details>
 <summary>Side menu</summary>
-![Side Menu](http://i.imgur.com/uPrVuJ1.jpg)
+[Side Menu](assets/screenshots/side_menu_screen.png)
 </details>
 <details>
 <summary>Reading time</summary>
-![Reading time](http://i.imgur.com/lckpNQS.jpg)
+[Reading time](assets/screenshots/read_time_screen.png)
 </details>
 <details>
 <summary>Syntax Highlight</summary>
-![Syntax Highlight](http://i.imgur.com/rShTIFi.jpg)
+[Syntax Highlight](assets/screenshots/syntax_highlight_screen.png)
 </details>
 <details>
 <summary>Comments</summary>
-![Comments](assets/screenshots/comment_screen.jpg)
+![Comments](assets/screenshots/comment_screen.png?raw=true "Comment")
 </details>
 
 ## Why
@@ -106,9 +106,9 @@ var telegram_channel = 'YOUR_CHANNEL_NAME'
 
 ### ToDo
 
-1. Add a variable that specifies how to take a description of the post (or meta description or from the beginning of the post)
-1. Add link "Fork This Theme" to footer on main page.
-1. Update Casper theme.
+[ ] Add a variable that specifies how to take a description of the post (or meta description or from the beginning of the post)  
+[ ] Add link "Fork This Theme" to footer on main page.  
+[ ] Update Casper theme from base repositary.  
 
 ## Copyright & License
 
