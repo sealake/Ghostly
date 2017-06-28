@@ -1,125 +1,181 @@
 /* ====================
-   SYNTAX HIGHLIGHTING
-   ==================== */
+SYNTAX HIGHLIGHTING
+==================== */
 
 pre {
-    word-wrap: normal;
-    -moz-hyphens: none;
-    -ms-hyphens: none;
-    -webkit-hyphens: none;
-    hyphens: none;
-    font-size: 0.8em;
-    line-height: 1.4em;
+  word-wrap: normal;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  -webkit-hyphens: none;
+  hyphens: none;
+  font-size: 0.8em;
+  line-height: 1.4em;
 }
 pre code, pre tt {
-    white-space: pre;
-    background: transparent !important;
+  white-space: pre;
+  background: transparent !important;
 }
 
 .main-header {
-    height: 40vh;
+  height: 40vh;
 }
 
 /* ===============
-   DISQUS COMMENTS
-   =============== */
+DISQUS COMMENTS
+=============== */
 
 .post-comments {
-    border-top: 2px solid #f2f2f2;
-    padding: 40px 0;
+  border-top: 2px solid #f2f2f2;
+  padding: 40px 0;
 }
 
 .post-comments strong {
-    font-weight: 700;
-    font-family: "Open Sans", sans-serif;
-    text-rendering: geometricPrecision;
-    
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  text-rendering: geometricPrecision;
+
 }
 
 .post-comments input.disqusbut {
-    background-color: #57a3e8;
-    color: #fff;
-    width: 100%;
-    padding: 15px 0;
+  background-color: #57a3e8;
+  color: #fff;
+  width: 100%;
+  padding: 15px 0;
 }
 
 /* ===============
-   OPEN IMAGES
-   =============== */
+OPEN IMAGES
+=============== */
 
 section.post-content img:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 
 /* ===============
-   READING TIME
-   =============== */
+READING TIME
+=============== */
 .eta {
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
-    left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  left: 50%;
 
-    color:darkgray;
+  color:darkgray;
 
-    position: relative;
-    top: 10px;
-    right: 30px;
-    display: inline-block;
-    font-feature-settings: initial;
-    z-index: 999;
-    font-weight: 400;
-    font-family: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    letter-spacing: -0.02em;
-    text-rendering: optimizeLegibility;
-    line-height: 44px;
-    white-space: nowrap;
+  position: relative;
+  top: 10px;
+  right: 30px;
+  display: inline-block;
+  font-feature-settings: initial;
+  z-index: 999;
+  font-weight: 400;
+  font-family: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  text-rendering: optimizeLegibility;
+  line-height: 44px;
+  white-space: nowrap;
 }
 
 /* ===============
-   MENU
-   =============== */
+MENU
+=============== */
 
 .nav {
-    display: table;
-    height: 100%;
-    background-color: #0d0d0d;
-    color: #707070;
+  display: table;
+  height: 100%;
+  background-color: #0d0d0d;
+  color: #707070;
 }
 
 .nav .main-nav {
-    display: table-row;
-    height: 100%;
-    margin-bottom: 72px;
+  display: table-row;
+  height: 100%;
+  margin-bottom: 72px;
 }
 
 ul.social-menu {
-    display: table-row;
-    text-align: center;
+  display: table-row;
+  text-align: center;
 }
 
 li.social-icon {
-    display: inline-block;
+  display: inline-block;
 }
 
 .social-icon a i {
-    transition: .14s color ease-out;
-    color: #707070;
-    font-size: 1.5em;
+  transition: .14s color ease-out;
+  color: #707070;
+  font-size: 1.5em;
 }
 
 .social-icon a:hover i {
-    color: #fff;
+  color: #fff;
 }
 
 .subscribe-menu {
-    position: initial;
-    display: table-row;
+  position: initial;
+  display: table-row;
 }
 
 .subscribe-button {
-    position: initial;
-    margin: 30px;
+  position: initial;
+  margin: 30px;
+}
+
+#toc {
+  font: 400 16px/1.8 "Open Sans","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+  position: fixed;
+  display:none;
+  left:50%;
+  top: 50%;
+  width: 180px;
+  max-height: 100%;
+  padding: 0 5px;
+  overflow-y: auto;
+}
+#toc ol {
+  margin: 0 0 0 1em;
+  list-style: none;
+  padding: 0;
+}
+#toc li {
+  padding: 0;
+  position: relative;
+}
+#toc li:before {
+  border: 5px dashed transparent;
+  border-left: 5px solid #57a3e8;
+  position: absolute;
+  left: -1em;
+  top: .5em;
+}
+#toc li:before {
+  content: "";
+  height: 0;
+  width: 0;
+  overflow: hidden;
+}
+#toc a {
+  display: block;
+  color: #6aa7c0;
+  cursor: pointer;
+  max-height: 2em;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-decoration: none;
+  transition: color .3s;
+}
+#toc a:hover {
+  color: #F3A01E;
+}
+#toc h4 {
+  padding-bottom: 0.25em;
+  margin: .75em 0;
+  border-bottom: 1px solid #b3b3b3;
+  font-size: 18px;
+  color: #3b3b3b;
+  font-family: "Open Sans","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
 }
