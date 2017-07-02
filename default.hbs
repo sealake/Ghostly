@@ -29,9 +29,13 @@
         integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
         crossorigin="anonymous"></script>
     {{!-- Syntax Highlighting --}}
+
+    <!--
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/default.min.css">
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
+    -->
+
     <style>  
         pre {
             word-wrap: break-word;
@@ -49,12 +53,16 @@
     </style> 
 
     {{!-- Font-Awesome --}}
-    <link rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.min.css"
+    <link rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.min.css" />
+
+    {{# if post}}
+    <link rel="stylesheet" type="text/css" href="/assets/css/prism.css" />  
+    {{/if}}
 
     {{!-- Ghost outputs important style and meta data with this tag --}}
     {{ghost_head}}
-    </head>
-    <body class="{{body_class}} nav-closed">
+</head>
+<body class="{{body_class}} nav-closed">
 
     {{!-- The blog navigation links --}}
     {{navigation}}
