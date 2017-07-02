@@ -11,10 +11,10 @@ pre[class*="language-"] {
 	background: none;
 	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 	text-align: left;
-	white-space: pre;
+  white-space: pre-wrap;
 	word-spacing: normal;
 	word-break: normal;
-	word-wrap: normal;
+  word-wrap: break-word;
 	line-height: 1.5;
 
 	-moz-tab-size: 4;
@@ -67,7 +67,7 @@ pre[class*="language-"] {
 	color: #c92c2c;
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	display: inline;
-	white-space: normal;
+  white-space: pre-wrap;
 }
 
 pre[class*="language-"]:before,
