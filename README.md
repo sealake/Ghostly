@@ -4,3 +4,4 @@
 
 示例 && 个人博客地址： https://sealake.net
 
+当前release版本对应ghost版本： `1.0.0-beta.2`
